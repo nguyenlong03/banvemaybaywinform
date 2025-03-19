@@ -1,0 +1,13 @@
+D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\bin\Debug\banvemaybay.exe.config
+D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\bin\Debug\banvemaybay.exe
+D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\bin\Debug\banvemaybay.pdb
+D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\obj\Debug\banvemaybay.csproj.AssemblyReference.cache
+D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\obj\Debug\banvemaybay.GUI.QLhanhkhach.resources
+D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\obj\Debug\banvemaybay.Properties.Resources.resources
+D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\obj\Debug\banvemaybay.csproj.GenerateResource.cache
+D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\obj\Debug\banvemaybay.csproj.CoreCompileInputs.cache
+D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\obj\Debug\banvemaybay.exe
+D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\obj\Debug\banvemaybay.pdb
+D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\obj\Debug\banvemaybay.Login.resources
+D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\obj\Debug\banvemaybay.GUI.Main.resources
+D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\obj\Debug\banvemaybay.GUI.QLchuyenbay.resources

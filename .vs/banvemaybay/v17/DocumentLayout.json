@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\NguyenLongWK\\Winformc#\\banvemaybay\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83A7DE6B-6B5D-40A2-A980-C862A7C1F60C}|banvemaybay\\banvemaybay.csproj|d:\\nguyenlongwk\\winformc#\\banvemaybay\\banvemaybay\\gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{83A7DE6B-6B5D-40A2-A980-C862A7C1F60C}|banvemaybay\\banvemaybay.csproj|solutionrelative:banvemaybay\\gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83A7DE6B-6B5D-40A2-A980-C862A7C1F60C}|banvemaybay\\banvemaybay.csproj|d:\\nguyenlongwk\\winformc#\\banvemaybay\\banvemaybay\\gui\\qldatve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{83A7DE6B-6B5D-40A2-A980-C862A7C1F60C}|banvemaybay\\banvemaybay.csproj|solutionrelative:banvemaybay\\gui\\qldatve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83A7DE6B-6B5D-40A2-A980-C862A7C1F60C}|banvemaybay\\banvemaybay.csproj|d:\\nguyenlongwk\\winformc#\\banvemaybay\\banvemaybay\\gui\\qlchuyenbay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83A7DE6B-6B5D-40A2-A980-C862A7C1F60C}|banvemaybay\\banvemaybay.csproj|solutionrelative:banvemaybay\\gui\\qlchuyenbay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83A7DE6B-6B5D-40A2-A980-C862A7C1F60C}|banvemaybay\\banvemaybay.csproj|d:\\nguyenlongwk\\winformc#\\banvemaybay\\banvemaybay\\gui\\qlchuyenbay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{83A7DE6B-6B5D-40A2-A980-C862A7C1F60C}|banvemaybay\\banvemaybay.csproj|solutionrelative:banvemaybay\\gui\\qlchuyenbay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 308,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "D:\\NguyenLongWK\\Winformc#\\banvemaybay\\banvemaybay\\GUI\\Main.cs",
+              "RelativeDocumentMoniker": "banvemaybay\\GUI\\Main.cs",
+              "ToolTip": "D:\\NguyenLongWK\\Winformc#\\banvemaybay\\banvemaybay\\GUI\\Main.cs [Design]",
+              "RelativeToolTip": "banvemaybay\\GUI\\Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T07:31:56.555Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QLdatve.cs [Design]",
+              "DocumentMoniker": "D:\\NguyenLongWK\\Winformc#\\banvemaybay\\banvemaybay\\GUI\\QLdatve.cs",
+              "RelativeDocumentMoniker": "banvemaybay\\GUI\\QLdatve.cs",
+              "ToolTip": "D:\\NguyenLongWK\\Winformc#\\banvemaybay\\banvemaybay\\GUI\\QLdatve.cs [Design]",
+              "RelativeToolTip": "banvemaybay\\GUI\\QLdatve.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T07:30:25.118Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QLchuyenbay.cs",
+              "DocumentMoniker": "D:\\NguyenLongWK\\Winformc#\\banvemaybay\\banvemaybay\\GUI\\QLchuyenbay.cs",
+              "RelativeDocumentMoniker": "banvemaybay\\GUI\\QLchuyenbay.cs",
+              "ToolTip": "D:\\NguyenLongWK\\Winformc#\\banvemaybay\\banvemaybay\\GUI\\QLchuyenbay.cs",
+              "RelativeToolTip": "banvemaybay\\GUI\\QLchuyenbay.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswCEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T07:25:27.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QLchuyenbay.cs [Design]",
+              "DocumentMoniker": "D:\\NguyenLongWK\\Winformc#\\banvemaybay\\banvemaybay\\GUI\\QLchuyenbay.cs",
+              "RelativeDocumentMoniker": "banvemaybay\\GUI\\QLchuyenbay.cs",
+              "ToolTip": "D:\\NguyenLongWK\\Winformc#\\banvemaybay\\banvemaybay\\GUI\\QLchuyenbay.cs [Design]",
+              "RelativeToolTip": "banvemaybay\\GUI\\QLchuyenbay.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T07:12:14.292Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 92,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
