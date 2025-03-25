@@ -20,13 +20,33 @@ namespace banvemaybay
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Main form = new Main();
-            form.Show();
-            this.Hide();
+            if (txtemail.Text == "" || txtpassword.Text == "")
+            {
+                MessageBox.Show("điền hông tin đăng nhập");
+            }
+            else
+            {
+                Main formmain = new Main();
+                formmain.Show();
+                this.Hide();
+            }
+           
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+
 
         }
     }

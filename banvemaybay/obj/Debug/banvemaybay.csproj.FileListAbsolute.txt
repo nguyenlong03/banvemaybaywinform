@@ -11,3 +11,4 @@ D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\obj\Debug\banvemaybay.pdb
 D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\obj\Debug\banvemaybay.Login.resources
 D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\obj\Debug\banvemaybay.GUI.Main.resources
 D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\obj\Debug\banvemaybay.GUI.QLchuyenbay.resources
+D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\obj\Debug\banvemaybay.GUI.QLdatve.resources
