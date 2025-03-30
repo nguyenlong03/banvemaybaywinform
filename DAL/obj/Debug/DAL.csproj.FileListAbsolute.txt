@@ -1,0 +1,13 @@
+D:\NguyenLongWK\Winformc#\banvemaybay\DAL\bin\Debug\DAL.exe.config
+D:\NguyenLongWK\Winformc#\banvemaybay\DAL\bin\Debug\DAL.exe
+D:\NguyenLongWK\Winformc#\banvemaybay\DAL\bin\Debug\DAL.pdb
+D:\NguyenLongWK\Winformc#\banvemaybay\DAL\bin\Debug\DTO.exe
+D:\NguyenLongWK\Winformc#\banvemaybay\DAL\bin\Debug\DTO.pdb
+D:\NguyenLongWK\Winformc#\banvemaybay\DAL\bin\Debug\DTO.exe.config
+D:\NguyenLongWK\Winformc#\banvemaybay\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\NguyenLongWK\Winformc#\banvemaybay\DAL\obj\Debug\DAL.Properties.Resources.resources
+D:\NguyenLongWK\Winformc#\banvemaybay\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+D:\NguyenLongWK\Winformc#\banvemaybay\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\NguyenLongWK\Winformc#\banvemaybay\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\NguyenLongWK\Winformc#\banvemaybay\DAL\obj\Debug\DAL.exe
+D:\NguyenLongWK\Winformc#\banvemaybay\DAL\obj\Debug\DAL.pdb

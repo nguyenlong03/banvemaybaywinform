@@ -125,7 +125,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{fd42bd2c-d16e-4c50-a90a-7514aef89627}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{ee50cc8c-85fc-4475-9feb-e464fcdce7f1}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\anh3.jpeg" />
   </ItemGroup>

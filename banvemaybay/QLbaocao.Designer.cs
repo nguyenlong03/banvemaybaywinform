@@ -37,10 +37,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -59,7 +59,7 @@
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(207, 40);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 26);
+            this.dateTimePicker1.Size = new System.Drawing.Size(234, 26);
             this.dateTimePicker1.TabIndex = 1;
             // 
             // button1
@@ -137,19 +137,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Báo cáo ";
             // 
-            // dateTimePicker2
+            // button4
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(573, 41);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 26);
-            this.dateTimePicker2.TabIndex = 8;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(331, 121);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 26);
-            this.textBox1.TabIndex = 9;
+            this.button4.Location = new System.Drawing.Point(753, 115);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(117, 39);
+            this.button4.TabIndex = 11;
+            this.button4.Text = "Trang chủ";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -161,15 +157,19 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // textBox1
             // 
-            this.button4.Location = new System.Drawing.Point(753, 115);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(117, 39);
-            this.button4.TabIndex = 11;
-            this.button4.Text = "Trang chủ";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.textBox1.Location = new System.Drawing.Point(331, 121);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(41, 26);
+            this.textBox1.TabIndex = 9;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(573, 41);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(249, 26);
+            this.dateTimePicker2.TabIndex = 8;
             // 
             // QLbaocao
             // 

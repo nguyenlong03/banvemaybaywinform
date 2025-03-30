@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BLL;
+using DTO;
 
 namespace banvemaybay.GUI
 {
@@ -38,5 +40,18 @@ namespace banvemaybay.GUI
         {
 
         }
+
+        private void QLchuyenbay_Load(object sender, EventArgs e)
+        {
+          LoadDataChuyenBay();
+        }
+
+        private void LoadDataChuyenBay()
+        {
+            ChuyenbayBLL chuyenBayBLL = new ChuyenbayBLL(); // Tạo đối tượng trước khi gọi
+            List<ChuyenbayDTO> danhSach = chuyenBayBLL.GetAllChuyenBay();
+            datagvQLchuyenbay.DataSource = danhSach;
+        }
+
     }
 }

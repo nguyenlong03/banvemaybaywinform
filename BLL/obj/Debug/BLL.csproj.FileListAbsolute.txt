@@ -1,0 +1,16 @@
+D:\NguyenLongWK\Winformc#\banvemaybay\BLL\bin\Debug\BLL.exe.config
+D:\NguyenLongWK\Winformc#\banvemaybay\BLL\bin\Debug\BLL.exe
+D:\NguyenLongWK\Winformc#\banvemaybay\BLL\bin\Debug\BLL.pdb
+D:\NguyenLongWK\Winformc#\banvemaybay\BLL\bin\Debug\DAL.exe
+D:\NguyenLongWK\Winformc#\banvemaybay\BLL\bin\Debug\DTO.exe
+D:\NguyenLongWK\Winformc#\banvemaybay\BLL\bin\Debug\DAL.pdb
+D:\NguyenLongWK\Winformc#\banvemaybay\BLL\bin\Debug\DAL.exe.config
+D:\NguyenLongWK\Winformc#\banvemaybay\BLL\bin\Debug\DTO.pdb
+D:\NguyenLongWK\Winformc#\banvemaybay\BLL\bin\Debug\DTO.exe.config
+D:\NguyenLongWK\Winformc#\banvemaybay\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\NguyenLongWK\Winformc#\banvemaybay\BLL\obj\Debug\BLL.Properties.Resources.resources
+D:\NguyenLongWK\Winformc#\banvemaybay\BLL\obj\Debug\BLL.csproj.GenerateResource.cache
+D:\NguyenLongWK\Winformc#\banvemaybay\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\NguyenLongWK\Winformc#\banvemaybay\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\NguyenLongWK\Winformc#\banvemaybay\BLL\obj\Debug\BLL.exe
+D:\NguyenLongWK\Winformc#\banvemaybay\BLL\obj\Debug\BLL.pdb
