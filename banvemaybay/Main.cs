@@ -50,5 +50,12 @@ namespace banvemaybay.GUI
             formbaocao.Show();
             this.Hide();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Timkiemve forme = new Timkiemve();
+            forme.Show();
+            this.Hide();
+        }
     }
 }

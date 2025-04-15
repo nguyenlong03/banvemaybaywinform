@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using banvemaybay.GUI;
+using BLL;
+using DTO;
 
 namespace banvemaybay
 {
@@ -20,17 +22,24 @@ namespace banvemaybay
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (txtemail.Text == "" || txtpassword.Text == "")
+            string username = txtemail.Text;
+            string password = txtpassword.Text;
+
+            LoginBLL loginBLL = new LoginBLL();
+            loginDTO nguoiDung = loginBLL.DangNhap(username, password);
+
+            if (nguoiDung != null)
             {
-                MessageBox.Show("điền hông tin đăng nhập");
+                
+                Main main = new Main();
+                main.Show();
+                this.Hide();
             }
             else
             {
-                Main formmain = new Main();
-                formmain.Show();
-                this.Hide();
+                MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-           
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

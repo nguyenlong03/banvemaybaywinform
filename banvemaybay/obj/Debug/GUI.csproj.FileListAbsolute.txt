@@ -23,3 +23,4 @@ D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\bin\Debug\DTO.exe.config
 D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\bin\Debug\DAL.pdb
 D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\bin\Debug\DAL.exe.config
 D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\obj\Debug\GUI.csproj.Up2Date
+D:\NguyenLongWK\Winformc#\banvemaybay\banvemaybay\obj\Debug\banvemaybay.Timkiemve.resources
