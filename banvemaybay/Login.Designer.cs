@@ -58,11 +58,11 @@
             this.label1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(318, 174);
+            this.label1.Location = new System.Drawing.Point(329, 174);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 25);
+            this.label1.Size = new System.Drawing.Size(57, 25);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Email";
+            this.label1.Text = "User";
             // 
             // label2
             // 

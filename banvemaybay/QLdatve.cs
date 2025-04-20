@@ -71,6 +71,7 @@ namespace banvemaybay.GUI
                 txtgiatien.Text = row.Cells["GiaVe"].Value.ToString();
                 dtpkdatve.Text = row.Cells["NgayDatVe"].Value.ToString(); // Nếu bạn cần định dạng lại ngày
                 cbbtrangthai.SelectedItem = row.Cells["TrangThai"].Value.ToString(); // Chọn trạng thái trong ComboBox
+                txttenhanhkhach.Text = row.Cells["TenHanhKhach"].Value.ToString();
             }
         }
 
@@ -79,6 +80,7 @@ namespace banvemaybay.GUI
             string maVe = txtmave.Text;
             DateTime ngayDatVe = dtpkdatve.Value;
             string trangThai = cbbtrangthai.Text;
+            string Tenhanhkhach= txttenhanhkhach.Text;
 
             // Kiểm tra hợp lệ cho Giatien
             if (!decimal.TryParse(txtgiatien.Text, out decimal Giatien))
@@ -94,7 +96,7 @@ namespace banvemaybay.GUI
             }
 
             // Gọi hàm cập nhật
-            bool result = vemaybayBLL.UpdateVemaybay(maVe, ngayDatVe, trangThai, Giatien);
+            bool result = vemaybayBLL.UpdateVemaybay(maVe, ngayDatVe, trangThai, Giatien, Tenhanhkhach);
 
             if (result)
             {
@@ -134,5 +136,49 @@ namespace banvemaybay.GUI
                 }
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string maVe = txtmave.Text.Trim();
+            string maHanhKhach = txtMahanhkhach.Text.Trim(); // textbox chứa mã hành khách
+            string maChuyenBay = txtmachuyenbay.Text.Trim(); // textbox chứa mã chuyến bay
+            DateTime ngayDatVe = dtpkdatve.Value;
+            string trangThai = cbbtrangthai.Text.Trim();
+            string name = txttenhanhkhach.Text.Trim();
+
+            // Kiểm tra hợp lệ cho giá vé
+            if (!decimal.TryParse(txtgiatien.Text, out decimal giaVe))
+            {
+                MessageBox.Show("Giá vé phải là một số hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // Tạo đối tượng vé mới
+            VemaybayDTO veMoi = new VemaybayDTO
+            {
+                MaVe = maVe,
+                MaHanhKhach = maHanhKhach,      // GÁN ĐÚNG MÃ HÀNH KHÁCH
+                MaChuyenBay = maChuyenBay,      // GÁN ĐÚNG MÃ CHUYẾN BAY
+                NgayDatVe = ngayDatVe,
+                TrangThai = trangThai,
+                GiaVe = giaVe,
+                TenHanhKhach=name
+            };
+
+            // Thêm vé máy bay vào cơ sở dữ liệu
+            bool result = vemaybayBLL.AddVemaybay(veMoi);
+
+            if (result)
+            {
+                MessageBox.Show("Thêm vé máy bay thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                LoadDataGridView(); // Load lại dữ liệu
+            }
+            else
+            {
+                MessageBox.Show("Thêm vé máy bay thất bại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+
     }
 }

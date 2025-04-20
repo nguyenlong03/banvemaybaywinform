@@ -45,8 +45,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox7 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.datagvQLchuyenbay)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -56,11 +54,11 @@
             this.datagvQLchuyenbay.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.datagvQLchuyenbay.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders;
             this.datagvQLchuyenbay.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.datagvQLchuyenbay.Location = new System.Drawing.Point(13, 363);
+            this.datagvQLchuyenbay.Location = new System.Drawing.Point(13, 320);
             this.datagvQLchuyenbay.Name = "datagvQLchuyenbay";
             this.datagvQLchuyenbay.RowHeadersWidth = 62;
             this.datagvQLchuyenbay.RowTemplate.Height = 28;
-            this.datagvQLchuyenbay.Size = new System.Drawing.Size(1332, 286);
+            this.datagvQLchuyenbay.Size = new System.Drawing.Size(1332, 329);
             this.datagvQLchuyenbay.TabIndex = 0;
             this.datagvQLchuyenbay.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.checkeddata);
             // 
@@ -232,33 +230,14 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã chuyến bay";
             // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(318, 309);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(197, 26);
-            this.button4.TabIndex = 15;
-            this.button4.Text = "Tìm kiếm chuyến bay";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(521, 309);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(381, 26);
-            this.textBox7.TabIndex = 19;
-            // 
             // QLchuyenbay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(1347, 649);
-            this.Controls.Add(this.textBox7);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.datagvQLchuyenbay);
-            this.Controls.Add(this.button4);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "QLchuyenbay";
             this.Text = "QLchuyenbay";
@@ -267,7 +246,6 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -285,12 +263,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.DateTimePicker dtpngaykhoihanh;
     }
 }

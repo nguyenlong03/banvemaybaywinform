@@ -11,13 +11,14 @@ namespace DTO
         public string MaVe { get; set; }
         public string MaHanhKhach { get; set; }
         public string MaChuyenBay { get; set; }
+        public string TenHanhKhach {  get; set; }
         public DateTime NgayDatVe { get; set; }
         public string TrangThai { get; set; }
         public decimal GiaVe { get; set; }
 
         public VemaybayDTO() { }
 
-        public VemaybayDTO(string maVe, string maHanhKhach, string maChuyenBay, DateTime ngayDatVe, string trangThai, decimal giaVe)
+        public VemaybayDTO(string maVe, string maHanhKhach, string maChuyenBay, DateTime ngayDatVe, string trangThai, decimal giaVe, string tenHanhKhach)
         {
             MaVe = maVe;
             MaHanhKhach = maHanhKhach;
@@ -25,6 +26,7 @@ namespace DTO
             NgayDatVe = ngayDatVe;
             TrangThai = trangThai;
             GiaVe = giaVe;
+            TenHanhKhach = tenHanhKhach;
         }
     }
 }

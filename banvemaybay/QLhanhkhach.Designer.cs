@@ -30,7 +30,6 @@
         {
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.txttenhanhkhach = new System.Windows.Forms.TextBox();
@@ -45,7 +44,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.datagridviewhanhkhach = new System.Windows.Forms.DataGridView();
-            this.txttimkiem = new System.Windows.Forms.TextBox();
+            this.Xoa = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.datagridviewhanhkhach)).BeginInit();
             this.SuspendLayout();
@@ -53,7 +52,7 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(858, 118);
+            this.button5.Location = new System.Drawing.Point(841, 118);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(108, 39);
             this.button5.TabIndex = 18;
@@ -64,7 +63,7 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(992, 118);
+            this.button6.Location = new System.Drawing.Point(1001, 177);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(98, 39);
             this.button6.TabIndex = 17;
@@ -72,20 +71,10 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(383, 273);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(123, 33);
-            this.button4.TabIndex = 15;
-            this.button4.Text = "Tìm kiếm";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(1001, 43);
+            this.button2.Location = new System.Drawing.Point(987, 43);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(98, 38);
             this.button2.TabIndex = 13;
@@ -96,7 +85,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(858, 46);
+            this.button1.Location = new System.Drawing.Point(841, 49);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 38);
             this.button1.TabIndex = 12;
@@ -192,6 +181,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBox1.Controls.Add(this.Xoa);
             this.groupBox1.Controls.Add(this.button5);
             this.groupBox1.Controls.Add(this.button6);
             this.groupBox1.Controls.Add(this.button2);
@@ -216,33 +206,35 @@
             // 
             // datagridviewhanhkhach
             // 
-            this.datagridviewhanhkhach.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.datagridviewhanhkhach.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.datagridviewhanhkhach.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders;
             this.datagridviewhanhkhach.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.datagridviewhanhkhach.Location = new System.Drawing.Point(12, 319);
+            this.datagridviewhanhkhach.Location = new System.Drawing.Point(-6, 319);
             this.datagridviewhanhkhach.Name = "datagridviewhanhkhach";
             this.datagridviewhanhkhach.RowHeadersWidth = 62;
             this.datagridviewhanhkhach.RowTemplate.Height = 28;
-            this.datagridviewhanhkhach.Size = new System.Drawing.Size(1472, 358);
+            this.datagridviewhanhkhach.Size = new System.Drawing.Size(1490, 358);
             this.datagridviewhanhkhach.TabIndex = 3;
             this.datagridviewhanhkhach.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DatacelclickHanhkhach);
             // 
-            // txttimkiem
+            // Xoa
             // 
-            this.txttimkiem.Location = new System.Drawing.Point(522, 273);
-            this.txttimkiem.Multiline = true;
-            this.txttimkiem.Name = "txttimkiem";
-            this.txttimkiem.Size = new System.Drawing.Size(241, 33);
-            this.txttimkiem.TabIndex = 19;
+            this.Xoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Xoa.Location = new System.Drawing.Point(987, 118);
+            this.Xoa.Name = "Xoa";
+            this.Xoa.Size = new System.Drawing.Size(100, 38);
+            this.Xoa.TabIndex = 19;
+            this.Xoa.Text = "Xóa";
+            this.Xoa.UseVisualStyleBackColor = true;
+            this.Xoa.Click += new System.EventHandler(this.Xoa_Click);
             // 
             // QLhanhkhach
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1183, 689);
-            this.Controls.Add(this.txttimkiem);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.datagridviewhanhkhach);
-            this.Controls.Add(this.button4);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "QLhanhkhach";
             this.Text = "QLhanhkhach";
@@ -251,7 +243,6 @@
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.datagridviewhanhkhach)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -259,7 +250,6 @@
 
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox txttenhanhkhach;
@@ -274,6 +264,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridView datagridviewhanhkhach;
-        private System.Windows.Forms.TextBox txttimkiem;
+        private System.Windows.Forms.Button Xoa;
     }
 }

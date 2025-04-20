@@ -22,6 +22,11 @@ namespace BLL
             return hanhKhachDAL.UpdateHanhKhach(hk);
 
         }
-       
+        public bool DeleteHanhKhach ( string MaHanhKhach)
+        {
+            return hanhKhachDAL.DeleteHanhKhach(MaHanhKhach);
+
+        }
+
     }
 }

@@ -46,9 +46,13 @@ namespace banvemaybay.GUI
 
         private void button5_Click(object sender, EventArgs e)
         {
-            QLbaocao formbaocao = new QLbaocao();
+            //QLbaocao formbaocao = new QLbaocao();
+            //formbaocao.Show();
+            //this.Hide();
+            Frmbaocao formbaocao = new Frmbaocao();
             formbaocao.Show();
             this.Hide();
+           
         }
 
         private void button6_Click(object sender, EventArgs e)

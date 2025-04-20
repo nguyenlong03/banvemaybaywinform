@@ -126,6 +126,33 @@ namespace banvemaybay.GUI
             }
         }
 
-    
+        private void Xoa_Click(object sender, EventArgs e)
+        {
+            // Kiểm tra xem người dùng đã chọn mã hành khách để xóa chưa
+            if (string.IsNullOrWhiteSpace(txtmahanhkhach.Text))
+            {
+                MessageBox.Show("Vui lòng chọn hành khách cần xóa!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            string maHanhKhach = txtmahanhkhach.Text;
+
+            // Hỏi xác nhận trước khi xóa
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa hành khách này không?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                if (bll.DeleteHanhKhach(maHanhKhach))
+                {
+                    MessageBox.Show("Xóa hành khách thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    LoadData(); // Cập nhật lại DataGridView
+                     // Xóa nội dung trong TextBox
+                }
+                else
+                {
+                    MessageBox.Show("Xóa hành khách thất bại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
     }
 }
